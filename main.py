@@ -1,3 +1,4 @@
+import conexion_basedatos as cb
 
-print("otro programador")
-print("Hola mundo!")
+if __name__=="__main__":
+    cb.conectar_bd()
